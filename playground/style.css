@@ -1,0 +1,23 @@
+:root { font-family: system-ui, sans-serif; color: #e8e9e2; background: #171b1c; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 850px; margin: auto; padding: 64px 24px; }
+header { margin-bottom: 48px; }
+.eyebrow { color: #a7d9b7; font: 12px monospace; letter-spacing: .16em; }
+h1 { font-size: clamp(36px, 7vw, 68px); letter-spacing: -.05em; line-height: 1.08; margin: 24px 0; }
+h2 { font-size: 20px; }
+p, label { line-height: 1.6; }
+section { padding: 24px; background: #212729; border: 1px solid #3d484a; border-radius: 12px; margin: 20px 0; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; }
+button { font: inherit; cursor: pointer; padding: 10px 18px; border: 1px solid #738581; background: transparent; color: inherit; border-radius: 6px; }
+button[aria-pressed="true"] { background: #b4e6c4; color: #182a20; border-color: #b4e6c4; }
+button:hover { border-color: #b4e6c4; }
+:focus-visible { outline: 3px solid #b4e6c4; outline-offset: 4px; }
+input { accent-color: #b4e6c4; }
+.preview { border-left: 3px solid #b4e6c4; padding: 4px 18px; margin: 24px 0; }
+pre { padding: 16px; background: #171b1c; overflow-x: auto; line-height: 1.7; font-size: 13px; border-radius: 6px; }
+footer { color: #b0bbb6; font-size: 13px; padding-top: 20px; }
+.people { list-style: none; padding: 0; }
+.people li { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+.people input { padding: 10px; flex: 1; min-width: 160px; font: inherit; }
+.controls + label { display: block; margin-top: 20px; }
